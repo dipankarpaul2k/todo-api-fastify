@@ -23,8 +23,8 @@ localhost:5000/docs/
 - Fork the repository in your account in Github.
 - Make project directory and go inside the directory.
 - Clone the repository.
-- Install dependencies
-- Start or run your API on their local machine.
+- Install dependencies.
+- Start or run your API on the local machine.
 - Access the API in your browser or tools like Postman. I have used Rest Client VS Code extension.
 
 ```terminal
