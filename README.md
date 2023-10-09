@@ -15,7 +15,7 @@ I am learning about APIs and CURD operations. This is a simple API for todo list
 I have used `Fasify-openApi-docs` plugin to generate docs autometically.
 
 ```
-localhost:5000/todos/docs/
+localhost:5000/docs/
 ```
 
 ## Installation & Usage
