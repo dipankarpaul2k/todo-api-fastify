@@ -1,6 +1,10 @@
 import Fastify from "fastify";
 const fastify = Fastify({
-  logger: true,
+  logger: {
+    transport: {
+      target: "pino-pretty",
+    },
+  },
 });
 const PORT = 5000;
 
@@ -37,4 +41,13 @@ const start = async () => {
     process.exit(1);
   }
 };
+
+["SIGINT", "SIGTERM"].forEach((signal) => {
+  process.on(signal, async () => {
+    await fastify.close();
+
+    process.exit(0);
+  });
+});
+
 start();

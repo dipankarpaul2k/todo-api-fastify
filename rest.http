@@ -2,7 +2,7 @@
 GET http://127.0.0.1:5000/todos HTTP/1.1
 
 ### GET A SINGLE TODO
-GET http://127.0.0.1:5000/todos/4 HTTP/1.1
+GET http://127.0.0.1:5000/todos/2 HTTP/1.1
 
 ### ADD A NEW TODO
 POST http://127.0.0.1:5000/todos HTTP/1.1
