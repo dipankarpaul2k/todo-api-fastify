@@ -1,4 +1,4 @@
-// *Todo API endpoints
+// *API endpoints
 import * as controller from "../controller/todos.controller.js";
 
 // defining todos schema
